@@ -1,0 +1,238 @@
+.navbar {
+  background-color: #285172;
+  /* background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #285172); */
+  /* background-image: radial-gradient(rgb(40, 81, 114), white); */
+  color: White;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  min-height: 65px;
+}
+
+.navbar-brand,
+.name {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: White;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.navbar-brand:hover {
+  color: #51a8d1;
+}
+
+hr {
+  border-color: white;
+}
+
+.navbar-toggler {
+  width: 56px;
+  height: 36px;
+  border: 1px solid #ffffff;
+}
+
+.navbar-toggler:hover {
+  background-color: white;
+}
+
+.fa-bars {
+  color: white;
+}
+
+.navbar-toggler:hover .fa-bars {
+  color: #51a8d1;
+}
+
+.navbar-nav > li > a {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.navbar-nav > li > a:hover {
+  color: #51a8d1;
+  font-size: 22px;
+}
+
+.navbar-nav > li > a:active {
+  color: #51a8d1;
+  font-size: 20px;
+}
+
+header {
+  padding-top: 115px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #fff;
+  background: #2196f3;
+}
+
+.profile-pic {
+  width: 250x;
+  height: 250px;
+  border-radius: 200px;
+  border: 3px solid white;
+  margin: 20px;
+}
+
+.intro-text > hr {
+  width: 250px;
+  border: 2px solid;
+}
+
+.white-background {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  color: #285172;
+  background: white;
+}
+
+.heading {
+  color: #285172;
+  text-align: center;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.heading-line {
+  color: #285172;
+  width: 250px;
+  border: 2px solid;
+  margin-bottom: 25px;
+}
+
+hr + div {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+.blue-background {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  color: #285172;
+  background-color: #eaf1f1;
+}
+
+.about-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-p {
+  width: 60%;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.edu-header {
+  padding: 15px;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.location {
+  font-size: 18px;
+}
+
+.title + hr {
+  border-bottom: 1px solid #285172;
+  margin: 0px;
+}
+
+.card-body {
+  padding: 0px 25px;
+  font-size: 18px;
+}
+
+.card-body > ul {
+  padding: 0px;
+}
+
+.card-body > ul li {
+  margin: 0px 20px;
+}
+
+.card-footer {
+  font-size: 14px;
+}
+
+.contacts {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0 10px 10px 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 250px;
+  background-color: #285172;
+  padding: 5px;
+}
+
+.btn-outline {
+  margin: 8px 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 25px;
+  border: 3px solid white;
+}
+
+.btn-outline:hover {
+  background-color: white;
+}
+
+.btn-outline:hover .social-icon {
+  color: #51a8d1;
+}
+
+.social-icon {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-item:hover > .hidden-link {
+  display: block;
+}
+
+.hidden-link {
+  padding: 5px;
+  display: none;
+}
+
+.hidden-link > a {
+  color: white;
+}
+
+.hidden-link > a:hover {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.page-footer {
+  background-color: #285172;
+  color: white;
+}
