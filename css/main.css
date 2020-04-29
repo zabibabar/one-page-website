@@ -1,12 +1,15 @@
+html,
+body {
+  height: 100%;
+}
+
 .navbar {
   background-color: #285172;
   /* background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #285172); */
   /* background-image: radial-gradient(rgb(40, 81, 114), white); */
   color: White;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  font-size: 25px;
-  min-height: 100px;
+  min-height: 65px;
 }
 
 .navbar-brand,
@@ -180,7 +183,7 @@ hr + div {
   position: fixed;
   display: flex;
   flex-direction: column;
-  top: 250px;
+  top: 40%;
   background-color: #285172;
   padding: 5px;
 }
@@ -233,6 +236,7 @@ hr + div {
 }
 
 .page-footer {
+  padding: 5px 15px;
   height: 45px;
   display: flex;
   background-color: #285172;
@@ -240,5 +244,9 @@ hr + div {
 }
 
 .copyright-footer {
+  align-self: center;
+}
+
+.links-footer {
   align-self: center;
 }
