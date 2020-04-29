@@ -6,7 +6,7 @@
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 25px;
-  min-height: 65px;
+  min-height: 100px;
 }
 
 .navbar-brand,
@@ -190,7 +190,7 @@ hr + div {
   width: 32px;
   height: 32px;
   border-radius: 25px;
-  border: 3px solid white;
+  border: 2px solid white;
 }
 
 .btn-outline:hover {
@@ -233,6 +233,12 @@ hr + div {
 }
 
 .page-footer {
+  height: 45px;
+  display: flex;
   background-color: #285172;
   color: white;
+}
+
+.copyright-footer {
+  align-self: center;
 }
