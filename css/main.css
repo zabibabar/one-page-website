@@ -123,16 +123,12 @@ hr + div {
   align-items: center;
 }
 
-.about-p {
-  width: 60%;
-}
-
 .card {
   /* Add shadows to create the "card" effect */
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 60%;
+  /* width: 60%; */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
